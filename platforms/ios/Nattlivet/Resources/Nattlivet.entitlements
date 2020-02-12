@@ -1,13 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
-  <dict>
-    <key>com.apple.developer.associated-domains</key>
-    <array>
-      <string>applinks:app.nattlivet.club</string>
-      <string>applinks:auth.nattlivet.club</string>
-      <string>applinks:nattlivet.page.link</string>
-      <string>applinks:nattlivet-91516.firebaseapp.com</string>
-    </array>
-  </dict>
+<dict/>
 </plist>

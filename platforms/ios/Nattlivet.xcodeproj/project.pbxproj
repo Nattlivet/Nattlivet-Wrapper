@@ -19,6 +19,7 @@
 		301BF552109A68D80062928A /* libCordova.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 301BF535109A57CC0062928A /* libCordova.a */; settings = {ATTRIBUTES = (Required, ); }; };
 		302D95F114D2391D003F00A1 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 302D95EF14D2391D003F00A1 /* MainViewController.m */; };
 		302D95F214D2391D003F00A1 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 302D95F014D2391D003F00A1 /* MainViewController.xib */; };
+		325220F0FE7A4931B3BF92CA /* CDVViewController+SplashScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = FFF32FF9EC3B4D35B4878D5C /* CDVViewController+SplashScreen.m */; };
 		432609AC78384A77BF9B156A /* CDVNotification.m in Sources */ = {isa = PBXBuildFile; fileRef = 0844E0F9F7134BE6AE7A14DA /* CDVNotification.m */; };
 		455504F427664399BA4B3649 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = E2946D64AFBD4D45905AAB26 /* libsqlite3.0.tbd */; };
 		4C3A766BE2504565AA076ADD /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EC09F3B705F456CB8D61E1B /* CoreLocation.framework */; };
@@ -38,22 +39,11 @@
 		A253A059011E46C191873A88 /* Nattlivet.entitlements in Resources */ = {isa = PBXBuildFile; fileRef = 3A12F5F8B1C74036A157A4E9 /* Nattlivet.entitlements */; };
 		AF8DC92669FD455D9F1C63CB /* CDVLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = B7A917D2341A43FAB0D7C551 /* CDVLocation.m */; };
 		B2AA8214E66A4F648DEDE7F0 /* CBTBrowserTab.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F459F4E0F224229BCA6260A /* CBTBrowserTab.m */; };
+		B969BDB6E9F5408BAE3C64CA /* CDVSplashScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = 02D7471353384D4BACA61328 /* CDVSplashScreen.m */; };
 		CCE94316532C439BA77CE51C /* CDVInAppBrowser.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DC6174FA81047C58C92D787 /* CDVInAppBrowser.m */; };
 		DCB3731E2043454C8D2569E9 /* CDVConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = C03E8486EE244657B03DDEE3 /* CDVConnection.m */; };
 		DD62057FC1794445A7BD2C72 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99EDE3C66FFA48B5914E70ED /* AddressBook.framework */; };
 		F11A7B1BBD2646A2A96FED0B /* CDVWKInAppBrowser.m in Sources */ = {isa = PBXBuildFile; fileRef = 856A9A59E9564E6C93D7BFF1 /* CDVWKInAppBrowser.m */; };
-		2F17D1FB1AD64ED4A1C65434 /* CULPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = BDEE60C66F044EA6B57B10C4 /* CULPlugin.m */; };
-		9E7ACEA6A8AB4B0994EED29B /* AppDelegate+CULPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = A386B9BD7CB8400C82C09E53 /* AppDelegate+CULPlugin.m */; };
-		BE35600C3EB0427E9796BEB4 /* CDVPluginResult+CULPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DB6412797184447BBF4245E /* CDVPluginResult+CULPlugin.m */; };
-		7F39D24A604E4CBAB8386C38 /* CDVInvokedUrlCommand+CULPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 6700ACC8000B45B783D1E312 /* CDVInvokedUrlCommand+CULPlugin.m */; };
-		9E360D7DE79741C2A3F43146 /* CULHost.m in Sources */ = {isa = PBXBuildFile; fileRef = 6885D97BF58B4AC4AB617E65 /* CULHost.m */; };
-		691EF0A4D6404A4691027C0A /* CULPath.m in Sources */ = {isa = PBXBuildFile; fileRef = 974ACC5C96D746E9871651C7 /* CULPath.m */; };
-		7550FBBEEA504CBD854FF188 /* CULXmlTags.m in Sources */ = {isa = PBXBuildFile; fileRef = EC8415B260F046E5850EF363 /* CULXmlTags.m */; };
-		2F8A457508A7484F85B38BDC /* CULConfigXmlParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 70E63AA474804022B383F8CD /* CULConfigXmlParser.m */; };
-		099F990A6BAB4076A73EE895 /* CULConfigJsonParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 6733932D2E894AFD8A375EE2 /* CULConfigJsonParser.m */; };
-		B076B8CE2C6C4C95983F7907 /* NSBundle+CULPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 73AA4C18E0AB4B688152F32D /* NSBundle+CULPlugin.m */; };
-		B969BDB6E9F5408BAE3C64CA /* CDVSplashScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = 02D7471353384D4BACA61328 /* CDVSplashScreen.m */; };
-		325220F0FE7A4931B3BF92CA /* CDVViewController+SplashScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = FFF32FF9EC3B4D35B4878D5C /* CDVViewController+SplashScreen.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -82,6 +72,7 @@
 
 /* Begin PBXFileReference section */
 		0207DA571B56EA530066E2B4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = Nattlivet/Images.xcassets; sourceTree = SOURCE_ROOT; };
+		02D7471353384D4BACA61328 /* CDVSplashScreen.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = CDVSplashScreen.m; path = "cordova-plugin-splashscreen/CDVSplashScreen.m"; sourceTree = "<group>"; };
 		0844E0F9F7134BE6AE7A14DA /* CDVNotification.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = CDVNotification.m; path = "cordova-plugin-dialogs/CDVNotification.m"; sourceTree = "<group>"; };
 		0DB9ADA3BC284E3D86F82BC6 /* libz.tbd */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 		0EC09F3B705F456CB8D61E1B /* CoreLocation.framework */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
@@ -116,6 +107,7 @@
 		72A8DDB280C942D6A3A99FE0 /* AppDelegate+FCMPlugin.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = "AppDelegate+FCMPlugin.m"; path = "cordova-plugin-fcm-with-dependecy-updated/AppDelegate+FCMPlugin.m"; sourceTree = "<group>"; };
 		7F459F4E0F224229BCA6260A /* CBTBrowserTab.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = CBTBrowserTab.m; path = "cordova-plugin-browsertab/CBTBrowserTab.m"; sourceTree = "<group>"; };
 		856A9A59E9564E6C93D7BFF1 /* CDVWKInAppBrowser.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = CDVWKInAppBrowser.m; path = "cordova-plugin-inappbrowser/CDVWKInAppBrowser.m"; sourceTree = "<group>"; };
+		8B7AE103C52A4664890B68C5 /* CDVSplashScreen.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = CDVSplashScreen.h; path = "cordova-plugin-splashscreen/CDVSplashScreen.h"; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* Nattlivet-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "Nattlivet-Info.plist"; path = "Nattlivet/Nattlivet-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = SOURCE_ROOT; };
 		8DAD4F51BFF948EFBFF3D443 /* CBTBrowserTab.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = CBTBrowserTab.h; path = "cordova-plugin-browsertab/CBTBrowserTab.h"; sourceTree = "<group>"; };
 		98D5CA22A036418E9F485D81 /* CDVBuildInfo.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = CDVBuildInfo.h; path = "cordova-plugin-buildinfo/CDVBuildInfo.h"; sourceTree = "<group>"; };
@@ -131,6 +123,7 @@
 		C955D453757A455598243022 /* CDVReachability.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = CDVReachability.h; path = "cordova-plugin-network-information/CDVReachability.h"; sourceTree = "<group>"; };
 		D057B68C3828440A82CB1DF1 /* Security.framework */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		D55783C1849C4FF6BB1BB4A0 /* CDVLocation.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = CDVLocation.h; path = "cordova-plugin-geolocation/CDVLocation.h"; sourceTree = "<group>"; };
+		D67C4D5B87304130BFA7546F /* CDVViewController+SplashScreen.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = "CDVViewController+SplashScreen.h"; path = "cordova-plugin-splashscreen/CDVViewController+SplashScreen.h"; sourceTree = "<group>"; };
 		E2946D64AFBD4D45905AAB26 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
 		EB87FDF31871DA8E0020F90C /* www */ = {isa = PBXFileReference; lastKnownFileType = folder; name = www; path = ../../www; sourceTree = "<group>"; };
 		EB87FDF41871DAF40020F90C /* config.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = config.xml; path = ../../config.xml; sourceTree = "<group>"; };
@@ -145,30 +138,7 @@
 		FCE6F0949AC742E9890DDBAB /* libPods-Nattlivet.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Nattlivet.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF8C6E225A4B4F1188040C78 /* AppDelegate+FCMPlugin.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = "AppDelegate+FCMPlugin.h"; path = "cordova-plugin-fcm-with-dependecy-updated/AppDelegate+FCMPlugin.h"; sourceTree = "<group>"; };
 		FFB75D84B1F44879A558414A /* SafariServices.framework */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = wrapper.framework; name = SafariServices.framework; path = System/Library/Frameworks/SafariServices.framework; sourceTree = SDKROOT; };
-		BDEE60C66F044EA6B57B10C4 /* CULPlugin.m */ = {isa = PBXFileReference; name = "CULPlugin.m"; path = "cordova-universal-links-plugin/CULPlugin.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
-		A386B9BD7CB8400C82C09E53 /* AppDelegate+CULPlugin.m */ = {isa = PBXFileReference; name = "AppDelegate+CULPlugin.m"; path = "cordova-universal-links-plugin/AppDelegate+CULPlugin.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
-		5DB6412797184447BBF4245E /* CDVPluginResult+CULPlugin.m */ = {isa = PBXFileReference; name = "CDVPluginResult+CULPlugin.m"; path = "cordova-universal-links-plugin/JS/CDVPluginResult+CULPlugin.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
-		6700ACC8000B45B783D1E312 /* CDVInvokedUrlCommand+CULPlugin.m */ = {isa = PBXFileReference; name = "CDVInvokedUrlCommand+CULPlugin.m"; path = "cordova-universal-links-plugin/JS/CDVInvokedUrlCommand+CULPlugin.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
-		6885D97BF58B4AC4AB617E65 /* CULHost.m */ = {isa = PBXFileReference; name = "CULHost.m"; path = "cordova-universal-links-plugin/Model/CULHost.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
-		974ACC5C96D746E9871651C7 /* CULPath.m */ = {isa = PBXFileReference; name = "CULPath.m"; path = "cordova-universal-links-plugin/Model/CULPath.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
-		EC8415B260F046E5850EF363 /* CULXmlTags.m */ = {isa = PBXFileReference; name = "CULXmlTags.m"; path = "cordova-universal-links-plugin/Parser/XML/CULXmlTags.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
-		70E63AA474804022B383F8CD /* CULConfigXmlParser.m */ = {isa = PBXFileReference; name = "CULConfigXmlParser.m"; path = "cordova-universal-links-plugin/Parser/XML/CULConfigXmlParser.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
-		6733932D2E894AFD8A375EE2 /* CULConfigJsonParser.m */ = {isa = PBXFileReference; name = "CULConfigJsonParser.m"; path = "cordova-universal-links-plugin/Parser/JSON/CULConfigJsonParser.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
-		73AA4C18E0AB4B688152F32D /* NSBundle+CULPlugin.m */ = {isa = PBXFileReference; name = "NSBundle+CULPlugin.m"; path = "cordova-universal-links-plugin/Utils/NSBundle+CULPlugin.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
-		E905FD05D7DE42BD890D54B7 /* CULPlugin.h */ = {isa = PBXFileReference; name = "CULPlugin.h"; path = "cordova-universal-links-plugin/CULPlugin.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
-		323229E11211481FBF4E20BA /* AppDelegate+CULPlugin.h */ = {isa = PBXFileReference; name = "AppDelegate+CULPlugin.h"; path = "cordova-universal-links-plugin/AppDelegate+CULPlugin.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
-		49C88436F1734A2C8B662DB3 /* CDVPluginResult+CULPlugin.h */ = {isa = PBXFileReference; name = "CDVPluginResult+CULPlugin.h"; path = "cordova-universal-links-plugin/JS/CDVPluginResult+CULPlugin.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
-		F8E0E68013694BDFBD611576 /* CDVInvokedUrlCommand+CULPlugin.h */ = {isa = PBXFileReference; name = "CDVInvokedUrlCommand+CULPlugin.h"; path = "cordova-universal-links-plugin/JS/CDVInvokedUrlCommand+CULPlugin.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
-		6D3B2F114F0A4C8C978882C1 /* CULHost.h */ = {isa = PBXFileReference; name = "CULHost.h"; path = "cordova-universal-links-plugin/Model/CULHost.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
-		1F2DE44E20C5485FA1060883 /* CULPath.h */ = {isa = PBXFileReference; name = "CULPath.h"; path = "cordova-universal-links-plugin/Model/CULPath.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
-		0DC9DDF9AE4143C6AB598483 /* CULXmlTags.h */ = {isa = PBXFileReference; name = "CULXmlTags.h"; path = "cordova-universal-links-plugin/Parser/XML/CULXmlTags.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
-		4AE5EBB3A9B74B589C712804 /* CULConfigXmlParser.h */ = {isa = PBXFileReference; name = "CULConfigXmlParser.h"; path = "cordova-universal-links-plugin/Parser/XML/CULConfigXmlParser.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
-		FB0359C3BCB24871AED697C2 /* CULConfigJsonParser.h */ = {isa = PBXFileReference; name = "CULConfigJsonParser.h"; path = "cordova-universal-links-plugin/Parser/JSON/CULConfigJsonParser.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
-		DD6005B9BF6647E39C02364B /* NSBundle+CULPlugin.h */ = {isa = PBXFileReference; name = "NSBundle+CULPlugin.h"; path = "cordova-universal-links-plugin/Utils/NSBundle+CULPlugin.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
-		02D7471353384D4BACA61328 /* CDVSplashScreen.m */ = {isa = PBXFileReference; name = "CDVSplashScreen.m"; path = "cordova-plugin-splashscreen/CDVSplashScreen.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
-		FFF32FF9EC3B4D35B4878D5C /* CDVViewController+SplashScreen.m */ = {isa = PBXFileReference; name = "CDVViewController+SplashScreen.m"; path = "cordova-plugin-splashscreen/CDVViewController+SplashScreen.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
-		8B7AE103C52A4664890B68C5 /* CDVSplashScreen.h */ = {isa = PBXFileReference; name = "CDVSplashScreen.h"; path = "cordova-plugin-splashscreen/CDVSplashScreen.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
-		D67C4D5B87304130BFA7546F /* CDVViewController+SplashScreen.h */ = {isa = PBXFileReference; name = "CDVViewController+SplashScreen.h"; path = "cordova-plugin-splashscreen/CDVViewController+SplashScreen.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		FFF32FF9EC3B4D35B4878D5C /* CDVViewController+SplashScreen.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = "CDVViewController+SplashScreen.m"; path = "cordova-plugin-splashscreen/CDVViewController+SplashScreen.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -327,26 +297,6 @@
 				AC22D8402CFA4A0DB4CFACE5 /* CDVReachability.m */,
 				5FC52E8625C447EBB5184004 /* CDVConnection.h */,
 				C955D453757A455598243022 /* CDVReachability.h */,
-				BDEE60C66F044EA6B57B10C4 /* CULPlugin.m */,
-				A386B9BD7CB8400C82C09E53 /* AppDelegate+CULPlugin.m */,
-				5DB6412797184447BBF4245E /* CDVPluginResult+CULPlugin.m */,
-				6700ACC8000B45B783D1E312 /* CDVInvokedUrlCommand+CULPlugin.m */,
-				6885D97BF58B4AC4AB617E65 /* CULHost.m */,
-				974ACC5C96D746E9871651C7 /* CULPath.m */,
-				EC8415B260F046E5850EF363 /* CULXmlTags.m */,
-				70E63AA474804022B383F8CD /* CULConfigXmlParser.m */,
-				6733932D2E894AFD8A375EE2 /* CULConfigJsonParser.m */,
-				73AA4C18E0AB4B688152F32D /* NSBundle+CULPlugin.m */,
-				E905FD05D7DE42BD890D54B7 /* CULPlugin.h */,
-				323229E11211481FBF4E20BA /* AppDelegate+CULPlugin.h */,
-				49C88436F1734A2C8B662DB3 /* CDVPluginResult+CULPlugin.h */,
-				F8E0E68013694BDFBD611576 /* CDVInvokedUrlCommand+CULPlugin.h */,
-				6D3B2F114F0A4C8C978882C1 /* CULHost.h */,
-				1F2DE44E20C5485FA1060883 /* CULPath.h */,
-				0DC9DDF9AE4143C6AB598483 /* CULXmlTags.h */,
-				4AE5EBB3A9B74B589C712804 /* CULConfigXmlParser.h */,
-				FB0359C3BCB24871AED697C2 /* CULConfigJsonParser.h */,
-				DD6005B9BF6647E39C02364B /* NSBundle+CULPlugin.h */,
 				02D7471353384D4BACA61328 /* CDVSplashScreen.m */,
 				FFF32FF9EC3B4D35B4878D5C /* CDVViewController+SplashScreen.m */,
 				8B7AE103C52A4664890B68C5 /* CDVSplashScreen.h */,
@@ -404,6 +354,11 @@
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 510;
+				TargetAttributes = {
+					1D6058900D05DD3D006BFB54 = {
+						DevelopmentTeam = 66QTC3426V;
+					};
+				};
 			};
 			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Nattlivet" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -525,16 +480,6 @@
 				921BAF5D14DA43D09D82B605 /* CDVWKInAppBrowserUIDelegate.m in Sources */,
 				DCB3731E2043454C8D2569E9 /* CDVConnection.m in Sources */,
 				9C360577EE4649CF8323EF0C /* CDVReachability.m in Sources */,
-				2F17D1FB1AD64ED4A1C65434 /* CULPlugin.m in Sources */,
-				9E7ACEA6A8AB4B0994EED29B /* AppDelegate+CULPlugin.m in Sources */,
-				BE35600C3EB0427E9796BEB4 /* CDVPluginResult+CULPlugin.m in Sources */,
-				7F39D24A604E4CBAB8386C38 /* CDVInvokedUrlCommand+CULPlugin.m in Sources */,
-				9E360D7DE79741C2A3F43146 /* CULHost.m in Sources */,
-				691EF0A4D6404A4691027C0A /* CULPath.m in Sources */,
-				7550FBBEEA504CBD854FF188 /* CULXmlTags.m in Sources */,
-				2F8A457508A7484F85B38BDC /* CULConfigXmlParser.m in Sources */,
-				099F990A6BAB4076A73EE895 /* CULConfigJsonParser.m in Sources */,
-				B076B8CE2C6C4C95983F7907 /* NSBundle+CULPlugin.m in Sources */,
 				B969BDB6E9F5408BAE3C64CA /* CDVSplashScreen.m in Sources */,
 				325220F0FE7A4931B3BF92CA /* CDVViewController+SplashScreen.m in Sources */,
 			);
@@ -560,9 +505,9 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
-				CODE_SIGN_ENTITLEMENTS = "Nattlivet/Resources/Nattlivet.entitlements";
+				CODE_SIGN_ENTITLEMENTS = Nattlivet/Resources/Nattlivet.entitlements;
 				COPY_PHASE_STRIP = NO;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 66QTC3426V;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -587,11 +532,11 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
-				CODE_SIGN_ENTITLEMENTS = "Nattlivet/Resources/Nattlivet.entitlements";
+				CODE_SIGN_ENTITLEMENTS = Nattlivet/Resources/Nattlivet.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = YES;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 66QTC3426V;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Nattlivet/Nattlivet-Prefix.pch";
 				GCC_THUMB_SUPPORT = NO;
@@ -629,7 +574,7 @@
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_ENTITLEMENTS = "Nattlivet/Resources/Nattlivet.entitlements";
+				CODE_SIGN_ENTITLEMENTS = Nattlivet/Resources/Nattlivet.entitlements;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = c99;
@@ -674,7 +619,7 @@
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_ENTITLEMENTS = "Nattlivet/Resources/Nattlivet.entitlements";
+				CODE_SIGN_ENTITLEMENTS = Nattlivet/Resources/Nattlivet.entitlements;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_NO_COMMON_BLOCKS = YES;

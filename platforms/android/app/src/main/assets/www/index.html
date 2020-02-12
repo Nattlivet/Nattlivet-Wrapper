@@ -11,7 +11,9 @@
         <script type="text/javascript" src="cordova.js"></script>
         <script>
             "use strict";
-            window.location = "https://app.nattlivet.club";
+            document.addEventListener("deviceready", () => {
+                window.location = "https://app.nattlivet.club";
+            }, false);
         </script>
     </body>
 </html>

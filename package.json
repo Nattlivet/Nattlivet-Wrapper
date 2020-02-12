@@ -26,7 +26,6 @@
     "cordova-plugin-inappbrowser": "3.2.0",
     "cordova-plugin-network-information": "2.0.2",
     "cordova-plugin-splashscreen": "5.0.3",
-    "cordova-universal-links-plugin": "git+https://github.com/walteram/cordova-universal-links-plugin.git",
     "cordova-universal-links-plugin-fix": "1.2.1"
   },
   "devDependencies": {
@@ -49,7 +48,6 @@
       "cordova-plugin-network-information": {},
       "cordova-plugin-geolocation": {},
       "cordova-plugin-fcm-with-dependecy-updated": {},
-      "cordova-universal-links-plugin": {},
       "cordova-plugin-splashscreen": {}
     },
     "platforms": [
