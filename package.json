@@ -19,8 +19,11 @@
     "cordova-plugin-buildinfo": "4.0.0",
     "cordova-plugin-compat": "1.2.0",
     "cordova-plugin-customurlscheme": "5.0.0",
+    "cordova-plugin-dialogs": "2.0.2",
     "cordova-plugin-fcm": "2.1.2",
+    "cordova-plugin-geolocation": "4.0.2",
     "cordova-plugin-inappbrowser": "3.2.0",
+    "cordova-plugin-network-information": "2.0.2",
     "cordova-universal-links-plugin-fix": "1.2.1"
   },
   "devDependencies": {
@@ -39,7 +42,10 @@
         "ANDROID_HOST": " ",
         "ANDROID_PATHPREFIX": "/"
       },
-      "cordova-plugin-fcm": {}
+      "cordova-plugin-fcm": {},
+      "cordova-plugin-dialogs": {},
+      "cordova-plugin-network-information": {},
+      "cordova-plugin-geolocation": {}
     },
     "platforms": [
       "ios",
