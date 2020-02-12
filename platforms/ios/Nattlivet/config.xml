@@ -112,4 +112,5 @@
     <preference name="IconBackgroundColor" value="#333333" />
     <preference name="ShowSplashScreenSpinner" value="false" />
     <preference name="SplashScreenBackgroundColor" value="#333333" />
+    <preference name="orientation" value="portrait" />
 </widget>

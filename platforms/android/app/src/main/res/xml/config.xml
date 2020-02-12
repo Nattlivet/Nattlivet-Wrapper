@@ -83,6 +83,7 @@
     <preference name="IconBackgroundColor" value="#333333" />
     <preference name="ShowSplashScreenSpinner" value="false" />
     <preference name="SplashScreenBackgroundColor" value="#333333" />
+    <preference name="orientation" value="portrait" />
     <preference name="AndroidLaunchMode" value="singleTask" />
     <preference name="xwalk64bit" value="true" />
     <preference name="android-minSdkVersion" value="19" />
