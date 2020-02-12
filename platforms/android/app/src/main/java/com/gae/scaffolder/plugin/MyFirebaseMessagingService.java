@@ -21,6 +21,12 @@ public class MyFirebaseMessagingService extends FirebaseMessagingService {
 
     private static final String TAG = "FCMPlugin";
 
+    @Override
+    public void onNewToken(String token) {
+        super.onNewToken(token);
+        Log.d(TAG, "New token: " + token);
+    }
+
     /**
      * Called when message is received.
      *
@@ -34,21 +40,27 @@ public class MyFirebaseMessagingService extends FirebaseMessagingService {
         // Also if you intend on generating your own notifications as a result of a received FCM
         // message, here is where that should be initiated. See sendNotification method below.
         Log.d(TAG, "==> MyFirebaseMessagingService onMessageReceived");
-		
-		if( remoteMessage.getNotification() != null){
-			Log.d(TAG, "\tNotification Title: " + remoteMessage.getNotification().getTitle());
-			Log.d(TAG, "\tNotification Message: " + remoteMessage.getNotification().getBody());
-		}
-		
-		Map<String, Object> data = new HashMap<String, Object>();
-		data.put("wasTapped", false);
-		for (String key : remoteMessage.getData().keySet()) {
+        
+        if(remoteMessage.getNotification() != null){
+            Log.d(TAG, "\tNotification Title: " + remoteMessage.getNotification().getTitle());
+            Log.d(TAG, "\tNotification Message: " + remoteMessage.getNotification().getBody());
+        }
+        
+        Map<String, Object> data = new HashMap<String, Object>();
+        data.put("wasTapped", false);
+        
+        if(remoteMessage.getNotification() != null){
+            data.put("title", remoteMessage.getNotification().getTitle());
+            data.put("body", remoteMessage.getNotification().getBody());
+        }
+
+        for (String key : remoteMessage.getData().keySet()) {
                 Object value = remoteMessage.getData().get(key);
                 Log.d(TAG, "\tKey: " + key + " Value: " + value);
-				data.put(key, value);
+                data.put(key, value);
         }
-		
-		Log.d(TAG, "\tNotification Data: " + data.toString());
+        
+        Log.d(TAG, "\tNotification Data: " + data.toString());
         FCMPlugin.sendPushPayload( data );
         //sendNotification(remoteMessage.getNotification().getTitle(), remoteMessage.getNotification().getBody(), remoteMessage.getData());
     }
@@ -62,9 +74,9 @@ public class MyFirebaseMessagingService extends FirebaseMessagingService {
     private void sendNotification(String title, String messageBody, Map<String, Object> data) {
         Intent intent = new Intent(this, FCMPluginActivity.class);
         intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
-		for (String key : data.keySet()) {
-			intent.putExtra(key, data.get(key).toString());
-		}
+        for (String key : data.keySet()) {
+            intent.putExtra(key, data.get(key).toString());
+        }
         PendingIntent pendingIntent = PendingIntent.getActivity(this, 0 /* Request code */, intent,
                 PendingIntent.FLAG_ONE_SHOT);
 

@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "509086088544",
+    "firebase_url": "https://nattlivet-91516.firebaseio.com",
+    "project_id": "nattlivet-91516",
+    "storage_bucket": "nattlivet-91516.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:509086088544:android:42a3b661b547d6c0da7205",
+        "android_client_info": {
+          "package_name": "com.nattlivet.nattlivet"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "509086088544-u2lgtkcop28pj44fgnogpdc6iamda8to.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCHBjrKAdHUoEpIsgGY0cURC4P6UvTNDKM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "509086088544-u2lgtkcop28pj44fgnogpdc6iamda8to.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "509086088544-34jnien5q1tdm3h0p9n5p936r6fis4s4.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.nattlivet.nattlivet"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

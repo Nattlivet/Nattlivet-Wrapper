@@ -13,17 +13,20 @@
   "author": "Apache Cordova Team",
   "license": "Apache-2.0",
   "dependencies": {
-    "cordova-android": "^8.1.0",
+    "cordova": "9.0.0",
+    "cordova-android": "8.1.0",
     "cordova-ios": "^5.1.1",
     "cordova-plugin-browsertab": "0.2.0",
     "cordova-plugin-buildinfo": "4.0.0",
     "cordova-plugin-compat": "1.2.0",
+    "cordova-plugin-crosswalk-webview": "git+https://github.com/Nattlivet/cordova-plugin-crosswalk-webview.git",
     "cordova-plugin-customurlscheme": "5.0.0",
     "cordova-plugin-dialogs": "2.0.2",
-    "cordova-plugin-fcm": "2.1.2",
+    "cordova-plugin-fcm-with-dependecy-updated": "4.1.1",
     "cordova-plugin-geolocation": "4.0.2",
     "cordova-plugin-inappbrowser": "3.2.0",
     "cordova-plugin-network-information": "2.0.2",
+    "cordova-universal-links-plugin": "git+https://github.com/Nattlivet/cordova-universal-links-plugin.git",
     "cordova-universal-links-plugin-fix": "1.2.1"
   },
   "devDependencies": {
@@ -33,7 +36,6 @@
     "plugins": {
       "cordova-plugin-whitelist": {},
       "cordova-plugin-buildinfo": {},
-      "cordova-universal-links-plugin": {},
       "cordova-plugin-browsertab": {},
       "cordova-plugin-inappbrowser": {},
       "cordova-plugin-customurlscheme": {
@@ -42,14 +44,21 @@
         "ANDROID_HOST": " ",
         "ANDROID_PATHPREFIX": "/"
       },
-      "cordova-plugin-fcm": {},
       "cordova-plugin-dialogs": {},
       "cordova-plugin-network-information": {},
-      "cordova-plugin-geolocation": {}
+      "cordova-plugin-geolocation": {},
+      "cordova-plugin-fcm-with-dependecy-updated": {},
+      "cordova-plugin-crosswalk-webview": {
+        "XWALK_VERSION": "23+",
+        "XWALK_LITEVERSION": "xwalk_core_library_canary:17+",
+        "XWALK_COMMANDLINE": "--disable-pull-to-refresh-effect",
+        "XWALK_MODE": "embedded",
+        "XWALK_MULTIPLEAPK": "true"
+      },
+      "cordova-universal-links-plugin": {}
     },
     "platforms": [
-      "ios",
-      "android"
+      "ios"
     ]
   }
 }

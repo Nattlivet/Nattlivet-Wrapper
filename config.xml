@@ -10,7 +10,8 @@
         Nattlivet
     </author>
     <content src="index.html" />
-    <access origin="https://app.nattlivet.club*" />
+    <access origin="*" />
+    <allow-navigation href="*://*.nattlivet.club/*" />
     <universal-links>
         <host name="app.nattlivet.club" scheme="https" />
         <host name="nattlivet-91516.firebaseapp.com" scheme="https">
@@ -26,6 +27,7 @@
     <platform name="android">
         <allow-intent href="market:*" />
         <preference name="AndroidLaunchMode" value="singleTask" />
+        <preference name="xwalk64bit" value="true" />
     </platform>
     <platform name="ios">
         <allow-intent href="itms:*" />
