@@ -10,7 +10,7 @@
         Nattlivet
     </author>
     <content src="index.html" />
-    <access origin="*" />
+    <access origin="https://app.nattlivet.club*" />
     <universal-links>
         <host name="app.nattlivet.club" scheme="https" />
         <host name="nattlivet-91516.firebaseapp.com" scheme="https">
