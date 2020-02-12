@@ -19,7 +19,6 @@
     "cordova-plugin-browsertab": "0.2.0",
     "cordova-plugin-buildinfo": "4.0.0",
     "cordova-plugin-compat": "1.2.0",
-    "cordova-plugin-crosswalk-webview": "git+https://github.com/Nattlivet/cordova-plugin-crosswalk-webview.git",
     "cordova-plugin-customurlscheme": "5.0.0",
     "cordova-plugin-dialogs": "2.0.2",
     "cordova-plugin-fcm-with-dependecy-updated": "4.1.1",
@@ -48,13 +47,6 @@
       "cordova-plugin-network-information": {},
       "cordova-plugin-geolocation": {},
       "cordova-plugin-fcm-with-dependecy-updated": {},
-      "cordova-plugin-crosswalk-webview": {
-        "XWALK_VERSION": "23+",
-        "XWALK_LITEVERSION": "xwalk_core_library_canary:17+",
-        "XWALK_COMMANDLINE": "--disable-pull-to-refresh-effect",
-        "XWALK_MODE": "embedded",
-        "XWALK_MULTIPLEAPK": "true"
-      },
       "cordova-universal-links-plugin": {}
     },
     "platforms": [

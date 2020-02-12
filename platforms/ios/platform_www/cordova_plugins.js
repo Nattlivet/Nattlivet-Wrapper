@@ -111,7 +111,6 @@ cordova.define('cordova/plugin_list', function(require, exports, module) {
     "cordova-plugin-compat": "1.2.0",
     "cordova-plugin-browsertab": "0.2.0",
     "cordova-plugin-buildinfo": "4.0.0",
-    "cordova-plugin-crosswalk-webview": "2.4.0",
     "cordova-plugin-customurlscheme": "5.0.0",
     "cordova-plugin-dialogs": "2.0.2",
     "cordova-plugin-fcm-with-dependecy-updated": "4.1.1",

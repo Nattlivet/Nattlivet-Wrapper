@@ -27,7 +27,7 @@ buildscript {
     }
 
     dependencies {
-        classpath 'com.android.tools.build:gradle:3.3.0'
+        classpath 'com.android.tools.build:gradle:3.5.3'
     }
 }
 
@@ -100,7 +100,6 @@ ext {
 // PLUGIN GRADLE EXTENSIONS START
 apply from: "../cordova-plugin-browsertab/nattlivet-BrowserTab.gradle"
 apply from: "../cordova-plugin-buildinfo/nattlivet-BuildInfo.gradle"
-apply from: "../cordova-plugin-crosswalk-webview/nattlivet-xwalk.gradle"
 apply from: "../cordova-plugin-fcm-with-dependecy-updated/nattlivet-FCMPlugin.gradle"
 // PLUGIN GRADLE EXTENSIONS END
 
