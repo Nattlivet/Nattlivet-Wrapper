@@ -22,6 +22,12 @@
         <action android:name="android.intent.action.VIEW"/>
         <category android:name="android.intent.category.DEFAULT"/>
         <category android:name="android.intent.category.BROWSABLE"/>
+        <data android:host="app.nattlivet.club" android:scheme="https"/>
+      </intent-filter>
+      <intent-filter android:autoVerify="true">
+        <action android:name="android.intent.action.VIEW"/>
+        <category android:name="android.intent.category.DEFAULT"/>
+        <category android:name="android.intent.category.BROWSABLE"/>
         <data android:host="auth.nattlivet.club" android:scheme="https"/>
       </intent-filter>
       <intent-filter android:autoVerify="true">
@@ -35,6 +41,12 @@
         <category android:name="android.intent.category.DEFAULT"/>
         <category android:name="android.intent.category.BROWSABLE"/>
         <data android:host="nattlivet-91516.firebaseapp.com" android:scheme="https" android:path="/__/auth/callback"/>
+      </intent-filter>
+      <intent-filter android:autoVerify="true">
+        <action android:name="android.intent.action.VIEW"/>
+        <category android:name="android.intent.category.DEFAULT"/>
+        <category android:name="android.intent.category.BROWSABLE"/>
+        <data android:host="nattlivet-91516.firebaseapp.com" android:scheme="https" android:path="/__/auth/handler"/>
       </intent-filter>
     </activity>
     <activity android:exported="true" android:launchMode="singleTop" android:name="com.gae.scaffolder.plugin.FCMPluginActivity">

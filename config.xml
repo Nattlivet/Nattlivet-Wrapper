@@ -11,12 +11,14 @@
     </author>
     <content src="index.html" />
     <access origin="*" />
-    <allow-navigation href="*://*.nattlivet.club/*" />
+    <allow-navigation href="*" />
     <universal-links>
+        <host name="app.nattlivet.club" scheme="https" />
         <host name="auth.nattlivet.club" scheme="https" />
         <host name="nattlivet.page.link" scheme="https" />
         <host name="nattlivet-91516.firebaseapp.com" scheme="https">
             <path url="/__/auth/callback"/>
+            <path url="/__/auth/handler"/>
         </host>
     </universal-links>
     <allow-intent href="http://*/*" />
@@ -35,4 +37,7 @@
         <allow-intent href="itms-apps:*" />
     </platform>
     <preference name="AllowInlineMediaPlayback" value="true"/>
+    <preference name="OverrideUserAgent" value="Mozilla/5.0 Google" />
+    <preference name="DisallowOverscroll" value="true" />
+    <preference name="UIWebViewBounce" value="false" />
 </widget>
