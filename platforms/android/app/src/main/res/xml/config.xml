@@ -44,7 +44,8 @@
     <access origin="*" />
     <allow-navigation href="*://*.nattlivet.club/*" />
     <universal-links>
-        <host name="app.nattlivet.club" scheme="https" />
+        <host name="auth.nattlivet.club" scheme="https" />
+        <host name="nattlivet.page.link" scheme="https" />
         <host name="nattlivet-91516.firebaseapp.com" scheme="https">
             <path url="/__/auth/callback" />
         </host>
@@ -64,6 +65,7 @@
     <preference name="xwalkMode" value="embedded" />
     <preference name="xwalkMultipleApk" value="true" />
     <preference name="android-minSdkVersion" value="16" />
+    <preference name="AllowInlineMediaPlayback" value="true" />
     <preference name="AndroidLaunchMode" value="singleTask" />
     <preference name="xwalk64bit" value="true" />
 </widget>

@@ -13,7 +13,8 @@
     <access origin="*" />
     <allow-navigation href="*://*.nattlivet.club/*" />
     <universal-links>
-        <host name="app.nattlivet.club" scheme="https" />
+        <host name="auth.nattlivet.club" scheme="https" />
+        <host name="nattlivet.page.link" scheme="https" />
         <host name="nattlivet-91516.firebaseapp.com" scheme="https">
             <path url="/__/auth/callback"/>
         </host>
@@ -33,4 +34,5 @@
         <allow-intent href="itms:*" />
         <allow-intent href="itms-apps:*" />
     </platform>
+    <preference name="AllowInlineMediaPlayback" value="true"/>
 </widget>

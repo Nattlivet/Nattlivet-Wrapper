@@ -26,7 +26,7 @@
     "cordova-plugin-geolocation": "4.0.2",
     "cordova-plugin-inappbrowser": "3.2.0",
     "cordova-plugin-network-information": "2.0.2",
-    "cordova-universal-links-plugin": "git+https://github.com/Nattlivet/cordova-universal-links-plugin.git",
+    "cordova-universal-links-plugin": "git+https://github.com/walteram/cordova-universal-links-plugin.git",
     "cordova-universal-links-plugin-fix": "1.2.1"
   },
   "devDependencies": {

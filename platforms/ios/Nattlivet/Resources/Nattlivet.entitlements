@@ -4,7 +4,8 @@
   <dict>
     <key>com.apple.developer.associated-domains</key>
     <array>
-      <string>applinks:app.nattlivet.club</string>
+      <string>applinks:auth.nattlivet.club</string>
+      <string>applinks:nattlivet.page.link</string>
       <string>applinks:nattlivet-91516.firebaseapp.com</string>
     </array>
   </dict>
