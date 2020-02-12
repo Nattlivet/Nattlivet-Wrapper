@@ -78,6 +78,7 @@
     <allow-intent href="sms:*" />
     <allow-intent href="mailto:*" />
     <allow-intent href="geo:*" />
+    <hook src="node_modules/generate-cordova-assets/hook.js" type="after_prepare" />
     <allow-intent href="itms:*" />
     <allow-intent href="itms-apps:*" />
     <preference name="AllowInlineMediaPlayback" value="true" />
@@ -95,4 +96,6 @@
     <preference name="PaginationMode" value="unpaginated" />
     <preference name="OverrideUserAgent" value="Mozilla/5.0 Google" />
     <preference name="UIWebViewBounce" value="false" />
+    <preference name="IconSource" value="www/appicon.png" />
+    <preference name="IconBackgroundColor" value="#333333" />
 </widget>

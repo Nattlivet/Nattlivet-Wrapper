@@ -58,12 +58,15 @@
     <allow-intent href="sms:*" />
     <allow-intent href="mailto:*" />
     <allow-intent href="geo:*" />
+    <hook src="node_modules/generate-cordova-assets/hook.js" type="after_prepare" />
     <allow-intent href="market:*" />
     <preference name="loglevel" value="DEBUG" />
     <preference name="AllowInlineMediaPlayback" value="true" />
     <preference name="OverrideUserAgent" value="Mozilla/5.0 Google" />
     <preference name="DisallowOverscroll" value="true" />
     <preference name="UIWebViewBounce" value="false" />
+    <preference name="IconSource" value="www/appicon.png" />
+    <preference name="IconBackgroundColor" value="#333333" />
     <preference name="AndroidLaunchMode" value="singleTask" />
     <preference name="xwalk64bit" value="true" />
     <preference name="android-minSdkVersion" value="19" />

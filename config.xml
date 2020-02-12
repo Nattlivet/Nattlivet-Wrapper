@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.nattlivet.nattlivet" version="0.0.1" 
+<widget id="com.nattlivet.nattlivet" version="0.0.2" 
     xmlns="http://www.w3.org/ns/widgets" 
     xmlns:cdv="http://cordova.apache.org/ns/1.0">
     <name>Nattlivet</name>
@@ -42,4 +42,7 @@
     <preference name="OverrideUserAgent" value="Mozilla/5.0 Google" />
     <preference name="DisallowOverscroll" value="true" />
     <preference name="UIWebViewBounce" value="false" />
+    <preference name="IconSource" value="www/appicon.png"/>
+    <preference name="IconBackgroundColor" value="#333333"/>
+    <hook type="after_prepare" src="node_modules/generate-cordova-assets/hook.js"/>
 </widget>
