@@ -100,6 +100,7 @@ ext {
 // PLUGIN GRADLE EXTENSIONS START
 apply from: "../cordova-plugin-buildinfo/nattlivet-BuildInfo.gradle"
 apply from: "../cordova-plugin-browsertab/nattlivet-BrowserTab.gradle"
+apply from: "../cordova-plugin-fcm/nattlivet-FCMPlugin.gradle"
 // PLUGIN GRADLE EXTENSIONS END
 
 def hasBuildExtras1 = file('build-extras.gradle').exists()
@@ -296,6 +297,8 @@ dependencies {
     // SUB-PROJECT DEPENDENCIES START
     implementation(project(path: ":CordovaLib"))
     implementation "com.android.support:customtabs:23.3.0"
+    implementation "com.google.firebase:firebase-core:+"
+    implementation "com.google.firebase:firebase-messaging:+"
     // SUB-PROJECT DEPENDENCIES END
 }
 

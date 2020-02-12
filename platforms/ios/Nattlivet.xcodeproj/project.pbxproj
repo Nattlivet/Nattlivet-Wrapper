@@ -33,6 +33,22 @@
 		0D33ADD92EFA4FC69AC61CEC /* CDVUIInAppBrowser.m in Sources */ = {isa = PBXBuildFile; fileRef = 748506296C7D4788A55F53D4 /* CDVUIInAppBrowser.m */; };
 		4052B27A61D2435893F068BD /* CDVWKInAppBrowser.m in Sources */ = {isa = PBXBuildFile; fileRef = 30BB990AAC5B425794DD6F98 /* CDVWKInAppBrowser.m */; };
 		4F3712C7F80B412699121D75 /* CDVWKInAppBrowserUIDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BAF0A4F6ADBD42CEA8A2FAF5 /* CDVWKInAppBrowserUIDelegate.m */; };
+		43D375E3B98E4CABA3469BDE /* FCMPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 42B50075C0B442958BF1A541 /* FCMPlugin.m */; };
+		62D6F62DC7474AD9842A7D9B /* AppDelegate+FCMPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 17B67000414C4B8AB49239E4 /* AppDelegate+FCMPlugin.m */; };
+		0EA9D523625A419B86042BF2 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 01CA8CD78FFF4F74AFACB80E /* GoogleService-Info.plist */; };
+		348B5D12899A4DDFABA11153 /* FirebaseAnalytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80D0CE9217B446C392B23D5B /* FirebaseAnalytics.framework */; };
+		C5B262A5193144F984C362BD /* FirebaseCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B044CFDC76E443C6B4395DEB /* FirebaseCore.framework */; };
+		6F307507ABD74C96814CE435 /* FirebaseInstanceID.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F311747484B40649014E118 /* FirebaseInstanceID.framework */; };
+		F469C5D86B204956A2C5E26E /* FirebaseMessaging.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9583471DFD22415EA181D40A /* FirebaseMessaging.framework */; };
+		431F566418CC4D379614D9A3 /* GoogleInterchangeUtilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06DBDD98EA1044D0AC30FDC0 /* GoogleInterchangeUtilities.framework */; };
+		1706B341AB8F423590642D7A /* GoogleIPhoneUtilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B02A3AC21FBA4A369293FF55 /* GoogleIPhoneUtilities.framework */; };
+		EC194CCCEC4C414CA4096DC7 /* GoogleSymbolUtilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C39613026F21474BAC127C7E /* GoogleSymbolUtilities.framework */; };
+		00CAB1BC28B04AF98BF4D89E /* GoogleUtilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAC5592E52AB4889993EB880 /* GoogleUtilities.framework */; };
+		BD9BD17BB8E540CDB9820BA6 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 61D2A16FEDF34383AE7B4FB1 /* libc++.tbd */; };
+		3E52DF0EB19345459DE75EC3 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 2514FB0CBC2D461D925738FF /* libz.tbd */; };
+		FD74A4D559CF4D73A667546C /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9DF5B2E58EE428AA301BDF3 /* AddressBook.framework */; };
+		B6F31FCC72534F42B8B4E376 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 857B62A79A884DD5A2D307CF /* libsqlite3.0.tbd */; };
+		9FF9FC1539F84D4A9DEE0237 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A886794DFDC54EBFB47DED0A /* Security.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -117,6 +133,25 @@
 		3E4C79FC8F1C4202A32A6F1D /* CDVUIInAppBrowser.h */ = {isa = PBXFileReference; name = "CDVUIInAppBrowser.h"; path = "cordova-plugin-inappbrowser/CDVUIInAppBrowser.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
 		F38EC1F394504668A4DE9892 /* CDVWKInAppBrowser.h */ = {isa = PBXFileReference; name = "CDVWKInAppBrowser.h"; path = "cordova-plugin-inappbrowser/CDVWKInAppBrowser.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
 		BAA39CA559D3468197CD7017 /* CDVWKInAppBrowserUIDelegate.h */ = {isa = PBXFileReference; name = "CDVWKInAppBrowserUIDelegate.h"; path = "cordova-plugin-inappbrowser/CDVWKInAppBrowserUIDelegate.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		42B50075C0B442958BF1A541 /* FCMPlugin.m */ = {isa = PBXFileReference; name = "FCMPlugin.m"; path = "cordova-plugin-fcm/FCMPlugin.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
+		17B67000414C4B8AB49239E4 /* AppDelegate+FCMPlugin.m */ = {isa = PBXFileReference; name = "AppDelegate+FCMPlugin.m"; path = "cordova-plugin-fcm/AppDelegate+FCMPlugin.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
+		B84DACEB1A524AFABE10E464 /* FCMPlugin.h */ = {isa = PBXFileReference; name = "FCMPlugin.h"; path = "cordova-plugin-fcm/FCMPlugin.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		80184186F8884DB4A894657D /* AppDelegate+FCMPlugin.h */ = {isa = PBXFileReference; name = "AppDelegate+FCMPlugin.h"; path = "cordova-plugin-fcm/AppDelegate+FCMPlugin.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		56EAA8BC43C8477598037B31 /* Firebase.h */ = {isa = PBXFileReference; name = "Firebase.h"; path = "cordova-plugin-fcm/Firebase.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		01CA8CD78FFF4F74AFACB80E /* GoogleService-Info.plist */ = {isa = PBXFileReference; name = "GoogleService-Info.plist"; path = "Resources/GoogleService-Info.plist"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = text.plist.xml; explicitFileType = undefined; includeInIndex = 0; };
+		80D0CE9217B446C392B23D5B /* FirebaseAnalytics.framework */ = {isa = PBXFileReference; name = "FirebaseAnalytics.framework"; path = "Nattlivet/Plugins/cordova-plugin-fcm/FirebaseAnalytics.framework"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
+		B044CFDC76E443C6B4395DEB /* FirebaseCore.framework */ = {isa = PBXFileReference; name = "FirebaseCore.framework"; path = "Nattlivet/Plugins/cordova-plugin-fcm/FirebaseCore.framework"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
+		0F311747484B40649014E118 /* FirebaseInstanceID.framework */ = {isa = PBXFileReference; name = "FirebaseInstanceID.framework"; path = "Nattlivet/Plugins/cordova-plugin-fcm/FirebaseInstanceID.framework"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
+		9583471DFD22415EA181D40A /* FirebaseMessaging.framework */ = {isa = PBXFileReference; name = "FirebaseMessaging.framework"; path = "Nattlivet/Plugins/cordova-plugin-fcm/FirebaseMessaging.framework"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
+		06DBDD98EA1044D0AC30FDC0 /* GoogleInterchangeUtilities.framework */ = {isa = PBXFileReference; name = "GoogleInterchangeUtilities.framework"; path = "Nattlivet/Plugins/cordova-plugin-fcm/GoogleInterchangeUtilities.framework"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
+		B02A3AC21FBA4A369293FF55 /* GoogleIPhoneUtilities.framework */ = {isa = PBXFileReference; name = "GoogleIPhoneUtilities.framework"; path = "Nattlivet/Plugins/cordova-plugin-fcm/GoogleIPhoneUtilities.framework"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
+		C39613026F21474BAC127C7E /* GoogleSymbolUtilities.framework */ = {isa = PBXFileReference; name = "GoogleSymbolUtilities.framework"; path = "Nattlivet/Plugins/cordova-plugin-fcm/GoogleSymbolUtilities.framework"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
+		FAC5592E52AB4889993EB880 /* GoogleUtilities.framework */ = {isa = PBXFileReference; name = "GoogleUtilities.framework"; path = "Nattlivet/Plugins/cordova-plugin-fcm/GoogleUtilities.framework"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
+		61D2A16FEDF34383AE7B4FB1 /* libc++.tbd */ = {isa = PBXFileReference; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; fileEncoding = undefined; lastKnownFileType = sourcecode.text-based-dylib-definition; explicitFileType = undefined; includeInIndex = 0; };
+		2514FB0CBC2D461D925738FF /* libz.tbd */ = {isa = PBXFileReference; name = "libz.tbd"; path = "usr/lib/libz.tbd"; sourceTree = SDKROOT; fileEncoding = undefined; lastKnownFileType = sourcecode.text-based-dylib-definition; explicitFileType = undefined; includeInIndex = 0; };
+		F9DF5B2E58EE428AA301BDF3 /* AddressBook.framework */ = {isa = PBXFileReference; name = "AddressBook.framework"; path = "System/Library/Frameworks/AddressBook.framework"; sourceTree = SDKROOT; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
+		857B62A79A884DD5A2D307CF /* libsqlite3.0.tbd */ = {isa = PBXFileReference; name = "libsqlite3.0.tbd"; path = "usr/lib/libsqlite3.0.tbd"; sourceTree = SDKROOT; fileEncoding = undefined; lastKnownFileType = sourcecode.text-based-dylib-definition; explicitFileType = undefined; includeInIndex = 0; };
+		A886794DFDC54EBFB47DED0A /* Security.framework */ = {isa = PBXFileReference; name = "Security.framework"; path = "System/Library/Frameworks/Security.framework"; sourceTree = SDKROOT; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +161,19 @@
 			files = (
 				301BF552109A68D80062928A /* libCordova.a in Frameworks */,
 				5B6F9474F49440DDBF1CE6D7 /* SafariServices.framework in Frameworks */,
+				348B5D12899A4DDFABA11153 /* FirebaseAnalytics.framework in Frameworks */,
+				C5B262A5193144F984C362BD /* FirebaseCore.framework in Frameworks */,
+				6F307507ABD74C96814CE435 /* FirebaseInstanceID.framework in Frameworks */,
+				F469C5D86B204956A2C5E26E /* FirebaseMessaging.framework in Frameworks */,
+				431F566418CC4D379614D9A3 /* GoogleInterchangeUtilities.framework in Frameworks */,
+				1706B341AB8F423590642D7A /* GoogleIPhoneUtilities.framework in Frameworks */,
+				EC194CCCEC4C414CA4096DC7 /* GoogleSymbolUtilities.framework in Frameworks */,
+				00CAB1BC28B04AF98BF4D89E /* GoogleUtilities.framework in Frameworks */,
+				BD9BD17BB8E540CDB9820BA6 /* libc++.tbd in Frameworks */,
+				3E52DF0EB19345459DE75EC3 /* libz.tbd in Frameworks */,
+				FD74A4D559CF4D73A667546C /* AddressBook.framework in Frameworks */,
+				B6F31FCC72534F42B8B4E376 /* libsqlite3.0.tbd in Frameworks */,
+				9FF9FC1539F84D4A9DEE0237 /* Security.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -188,6 +236,7 @@
 				3047A50E1AB8057F00498E2A /* config */,
 				8D1107310486CEB800E47090 /* Nattlivet-Info.plist */,
 				6AFF5BF81D6E424B00AB3073 /* CDVLaunchScreen.storyboard */,
+				01CA8CD78FFF4F74AFACB80E /* GoogleService-Info.plist */,
 			);
 			name = Resources;
 			path = "Nattlivet/Resources";
@@ -197,6 +246,19 @@
 			isa = PBXGroup;
 			children = (
 				0AD1E6D08E714B8EA00930A7 /* SafariServices.framework */,
+				80D0CE9217B446C392B23D5B /* FirebaseAnalytics.framework */,
+				B044CFDC76E443C6B4395DEB /* FirebaseCore.framework */,
+				0F311747484B40649014E118 /* FirebaseInstanceID.framework */,
+				9583471DFD22415EA181D40A /* FirebaseMessaging.framework */,
+				06DBDD98EA1044D0AC30FDC0 /* GoogleInterchangeUtilities.framework */,
+				B02A3AC21FBA4A369293FF55 /* GoogleIPhoneUtilities.framework */,
+				C39613026F21474BAC127C7E /* GoogleSymbolUtilities.framework */,
+				FAC5592E52AB4889993EB880 /* GoogleUtilities.framework */,
+				61D2A16FEDF34383AE7B4FB1 /* libc++.tbd */,
+				2514FB0CBC2D461D925738FF /* libz.tbd */,
+				F9DF5B2E58EE428AA301BDF3 /* AddressBook.framework */,
+				857B62A79A884DD5A2D307CF /* libsqlite3.0.tbd */,
+				A886794DFDC54EBFB47DED0A /* Security.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -259,6 +321,11 @@
 				3E4C79FC8F1C4202A32A6F1D /* CDVUIInAppBrowser.h */,
 				F38EC1F394504668A4DE9892 /* CDVWKInAppBrowser.h */,
 				BAA39CA559D3468197CD7017 /* CDVWKInAppBrowserUIDelegate.h */,
+				42B50075C0B442958BF1A541 /* FCMPlugin.m */,
+				17B67000414C4B8AB49239E4 /* AppDelegate+FCMPlugin.m */,
+				B84DACEB1A524AFABE10E464 /* FCMPlugin.h */,
+				80184186F8884DB4A894657D /* AppDelegate+FCMPlugin.h */,
+				56EAA8BC43C8477598037B31 /* Firebase.h */,
 			);
 			name = Plugins;
 			path = "Nattlivet/Plugins";
@@ -352,6 +419,7 @@
 				302D95F214D2391D003F00A1 /* MainViewController.xib in Resources */,
 				0207DA581B56EA530066E2B4 /* Images.xcassets in Resources */,
 				6AFF5BF91D6E424B00AB3073 /* CDVLaunchScreen.storyboard in Resources */,
+				0EA9D523625A419B86042BF2 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -401,6 +469,8 @@
 				0D33ADD92EFA4FC69AC61CEC /* CDVUIInAppBrowser.m in Sources */,
 				4052B27A61D2435893F068BD /* CDVWKInAppBrowser.m in Sources */,
 				4F3712C7F80B412699121D75 /* CDVWKInAppBrowserUIDelegate.m in Sources */,
+				43D375E3B98E4CABA3469BDE /* FCMPlugin.m in Sources */,
+				62D6F62DC7474AD9842A7D9B /* AppDelegate+FCMPlugin.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -437,6 +507,17 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.nattlivet.nattlivet;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"Nattlivet/Plugins/cordova-plugin-fcm\"",
+					"\"Nattlivet/Plugins/cordova-plugin-fcm\"",
+					"\"Nattlivet/Plugins/cordova-plugin-fcm\"",
+					"\"Nattlivet/Plugins/cordova-plugin-fcm\"",
+					"\"Nattlivet/Plugins/cordova-plugin-fcm\"",
+					"\"Nattlivet/Plugins/cordova-plugin-fcm\"",
+					"\"Nattlivet/Plugins/cordova-plugin-fcm\"",
+					"\"Nattlivet/Plugins/cordova-plugin-fcm\"",
+				);
 			};
 			name = Debug;
 		};
@@ -460,6 +541,17 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.nattlivet.nattlivet;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"Nattlivet/Plugins/cordova-plugin-fcm\"",
+					"\"Nattlivet/Plugins/cordova-plugin-fcm\"",
+					"\"Nattlivet/Plugins/cordova-plugin-fcm\"",
+					"\"Nattlivet/Plugins/cordova-plugin-fcm\"",
+					"\"Nattlivet/Plugins/cordova-plugin-fcm\"",
+					"\"Nattlivet/Plugins/cordova-plugin-fcm\"",
+					"\"Nattlivet/Plugins/cordova-plugin-fcm\"",
+					"\"Nattlivet/Plugins/cordova-plugin-fcm\"",
+				);
 			};
 			name = Release;
 		};

@@ -40,6 +40,14 @@ cordova.define('cordova/plugin_list', function(require, exports, module) {
       "clobbers": [
         "window.plugins.launchmyapp"
       ]
+    },
+    {
+      "id": "cordova-plugin-fcm.FCMPlugin",
+      "file": "plugins/cordova-plugin-fcm/www/FCMPlugin.js",
+      "pluginId": "cordova-plugin-fcm",
+      "clobbers": [
+        "FCMPlugin"
+      ]
     }
   ];
   module.exports.metadata = {
@@ -49,6 +57,7 @@ cordova.define('cordova/plugin_list', function(require, exports, module) {
     "cordova-plugin-compat": "1.2.0",
     "cordova-plugin-browsertab": "0.2.0",
     "cordova-plugin-inappbrowser": "3.2.0",
-    "cordova-plugin-customurlscheme": "5.0.0"
+    "cordova-plugin-customurlscheme": "5.0.0",
+    "cordova-plugin-fcm": "2.1.2"
   };
 });
