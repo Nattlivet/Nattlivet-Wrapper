@@ -24,9 +24,10 @@
     "cordova-plugin-fcm-with-dependecy-updated": "4.1.1",
     "cordova-plugin-geolocation": "4.0.2",
     "cordova-plugin-inappbrowser": "3.2.0",
+    "cordova-plugin-ionic-keyboard": "2.2.0",
+    "cordova-plugin-ionic-webview": "4.1.3",
     "cordova-plugin-network-information": "2.0.2",
     "cordova-plugin-splashscreen": "5.0.3",
-    "cordova-plugin-wkwebview-engine": "1.2.1",
     "cordova-universal-links-plugin-fix": "1.2.1"
   },
   "devDependencies": {
@@ -50,7 +51,10 @@
       "cordova-plugin-geolocation": {},
       "cordova-plugin-fcm-with-dependecy-updated": {},
       "cordova-plugin-splashscreen": {},
-      "cordova-plugin-wkwebview-engine": {}
+      "cordova-plugin-ionic-keyboard": {},
+      "cordova-plugin-ionic-webview": {
+        "ANDROID_SUPPORT_ANNOTATIONS_VERSION": "27.+"
+      }
     },
     "platforms": [
       "ios"

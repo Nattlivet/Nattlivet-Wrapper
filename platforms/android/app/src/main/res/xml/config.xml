@@ -33,6 +33,15 @@
         <param name="android-package" value="org.apache.cordova.splashscreen.SplashScreen" />
         <param name="onload" value="true" />
     </feature>
+    <feature name="CDVIonicKeyboard">
+        <param name="android-package" onload="true" value="io.ionic.keyboard.CDVIonicKeyboard" />
+    </feature>
+    <allow-navigation href="http://localhost/*" />
+    <allow-navigation href="https://localhost/*" />
+    <allow-navigation href="ionic://*" />
+    <feature name="IonicWebView">
+        <param name="android-package" value="com.ionicframework.cordova.webview.IonicWebView" />
+    </feature>
     <name>Nattlivet</name>
     <description>
         A sample Apache Cordova application that responds to the deviceready event.
@@ -61,8 +70,11 @@
     <hook src="node_modules/generate-cordova-assets/hook.js" type="after_prepare" />
     <allow-intent href="market:*" />
     <preference name="loglevel" value="DEBUG" />
+    <preference name="webView" value="com.ionicframework.cordova.webview.IonicWebViewEngine" />
     <preference name="CordovaWebViewEngine" value="CDVWKWebViewEngine" />
     <preference name="Allow3DTouchLinkPreview" value="false" />
+    <preference name="KeyboardResize" value="true" />
+    <preference name="KeyboardResizeMode" value="native" />
     <preference name="AllowInlineMediaPlayback" value="true" />
     <preference name="OverrideUserAgent" value="Mozilla/5.0 Google" />
     <preference name="DisallowOverscroll" value="true" />

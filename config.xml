@@ -43,11 +43,15 @@
         <allow-intent href="itms:*" />
         <allow-intent href="itms-apps:*" />
     </platform>
+    <preference name="KeyboardResize" value="true" />
+    <preference name="KeyboardResizeMode" value="native" />
     <preference name="AllowInlineMediaPlayback" value="true"/>
     <preference name="OverrideUserAgent" value="Mozilla/5.0 Google" />
     <preference name="DisallowOverscroll" value="true" />
     <preference name="UIWebViewBounce" value="false" />
+    <preference name="WKSuspendInBackground" value="false" />
     <preference name="IconSource" value="www/appicon.png"/>
     <preference name="IconBackgroundColor" value="#333333"/>
+    <preference name="ShowSplashScreenSpinner" value="false"/>
     <hook type="after_prepare" src="node_modules/generate-cordova-assets/hook.js"/>
 </widget>
