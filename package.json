@@ -15,7 +15,7 @@
     "dependencies": {
         "@nattlivet/cordova-icon": "git+https://github.com/Nattlivet/cordova-icon.git",
         "cordova": "9.0.0",
-        "cordova-android": "8.1.0",
+        "cordova-android": "9.1.0",
         "cordova-ios": "^6.0.0",
         "cordova-plugin-browsertab": "0.2.0",
         "cordova-plugin-buildinfo": "4.0.0",
